@@ -1,0 +1,36 @@
+
+===== Đẩy từ local lên server git =====
+git init 
+=> tạo 1 file .git ben trong project (repo).
+
+git add . 
+=> lưu tất cả các file  
+or 
+git add <ten file> 
+=> lưu 1 hoặc 1 vài file riêng biệt.
+
+git remote add origin <link_git> 
+tạo 1 liên kết tới git với tên là origin.
+
+git commit -m "?"
+=> lưu lại những file vào git, ? là nội dung lưu.
+
+git checkout -b tên_nhánh
+=> tạo 1 branch mới (tạo 1 nhánh mới)
+git branch -d ten_nhanh
+=> xóa 1 nhánh.
+
++ git marge ten_nhanh
+=> tổng hợp vào với nhánh master 
+
+git push origin ten_nhanh
+=> đẩy lên git với 1 nhánh.
+
+==== lấy dự án trên git ve may ====
+
+vào thư forder đã tạo trên máy để lưu project 
+=> git clone <link_gitrepo>
++ k cần setup eli
+
+==== Git ===
+
